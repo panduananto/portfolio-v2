@@ -12,3 +12,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@layer utilities {
+  .bg-photo-profile {
+    background-image: url('../assets/photo-profile-min.JPG');
+  }
+
+  .bg-shadow {
+    box-shadow: 14px 0 rgba(79, 70, 229, 1);
+  }
+}
