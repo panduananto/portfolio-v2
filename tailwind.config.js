@@ -6,8 +6,12 @@ module.exports = {
       sans: ['Rubik', 'sans-serif'],
       title: ['Merriweather', 'sans-serif'],
     },
+    height: {
+      '500px': '500px',
+      '1100px': '1100px',
+    },
     maxWidth: {
-      1366: '1366px',
+      '1366px': '1366px',
     },
     extend: {},
   },

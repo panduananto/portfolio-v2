@@ -11,7 +11,7 @@ function Contact() {
       <p className="font-thin text-lg md:text-3xl mb-6 pr-0 lg:pr-24">
         I would be very happy to discuss my experiences with you, send me an email or message me on LinkedIn!
       </p>
-      <a href="mailto:panduanantoh@gmail.com" className="block font-thin text-2xl hover:underline mb-6">
+      <a href="mailto:panduanantoh@gmail.com" id="contact" className="block font-thin text-2xl hover:underline mb-6">
         panduanantoh@gmail.com
       </a>
       <IconContext.Provider
