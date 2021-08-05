@@ -5,10 +5,8 @@ function Introduction() {
     <>
       <div className="flex flex-col md:flex-row items-center gap-8 md:gap-14 xl:gap-32 mt-12 md:mt-24">
         <div className="w-3/4">
-          <span className="text-xl sm:text-3xl md:text-5xl font-bold font-title mb-6">Hello, I'm</span>
-          <h1 className="text-xl sm:text-3xl md:text-5xl font-bold font-title text-indigo-600 mb-6">
-            Pandu Ananto Hogantara
-          </h1>
+          <span className="text-title mb-6">Hello, I'm</span>
+          <h1 className="text-title text-indigo-600 mb-6">Pandu Ananto Hogantara</h1>
           <p className="text-base sm:text-lg md:text-xl font-light text-gray-600">
             Final year student at UPN Veteran Jakarta majoring in Informatics with Data Science specialization. Detail
             oriented person, highly motivated, and have a high willingness to learn new things. Highly interested in

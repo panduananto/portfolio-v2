@@ -6,10 +6,15 @@ module.exports = {
       sans: ['Rubik', 'sans-serif'],
       title: ['Merriweather', 'sans-serif'],
     },
+    maxWidth: {
+      1366: '1366px',
+    },
     extend: {},
   },
   variants: {
-    extend: {},
+    extend: {
+      borderWidth: ['hover'],
+    },
   },
   plugins: [],
 };
