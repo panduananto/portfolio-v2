@@ -1,18 +1,13 @@
 import React from 'react';
 
 import Contact from './Contact';
-import Container from './Container';
-import Header from './Header';
 import Introduction from './Introduction';
 import Project from './Project';
 
 function Landing() {
   return (
     <>
-      <Container>
-        <Header></Header>
-        <Introduction></Introduction>
-      </Container>
+      <Introduction></Introduction>
       <Project></Project>
       <Contact></Contact>
     </>

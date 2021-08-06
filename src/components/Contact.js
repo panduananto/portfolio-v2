@@ -21,7 +21,7 @@ function Contact() {
           <a href="mailto:panduanantoh@gmail.com">
             <FaEnvelope></FaEnvelope>
           </a>
-          <a href="https://www.linkedin.com/panduanantoh">
+          <a href="https://www.linkedin.com/in/panduanantoh/">
             <FaLinkedin></FaLinkedin>
           </a>
           <a href="https://www.github.com/panduananto">
