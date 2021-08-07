@@ -48,7 +48,7 @@ function Project() {
   ];
 
   return (
-    <div className="bg-gray-100">
+    <div className="transition duration-300 ease-in-out bg-gray-100 dark:bg-gray-900">
       <Container>
         <h2 className="text-title mb-14">Projects</h2>
         <ul className="flex flex-col gap-14 sm:gap-24">

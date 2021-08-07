@@ -15,7 +15,7 @@ body {
 
 @layer components {
   .text-title {
-    @apply text-xl sm:text-3xl md:text-5xl font-bold font-title;
+    @apply text-xl sm:text-3xl md:text-5xl text-gray-900 dark:text-gray-300 font-bold font-title;
   }
 
   .btn-primary {
