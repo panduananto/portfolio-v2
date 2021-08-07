@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { HiLightBulb, HiOutlineLightBulb } from 'react-icons/hi';
 
 function DarkSwitch() {
-  const [theme, setTheme] = useState(localStorage.getItem('theme'));
+  const [theme, setTheme] = useState(localStorage.getItem('theme') ? localStorage.getItem('theme') : 'light');
   const colorTheme = theme === 'dark' ? 'light' : 'dark';
 
   useEffect(() => {
