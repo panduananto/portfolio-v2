@@ -10,19 +10,21 @@ function Header() {
         <span className="text-xl text-gray-900 dark:text-gray-300">
           <Link to="/">Pandu.</Link>
         </span>
-        <ul className="flex flex-row items-center gap-x-6 font-light text-gray-900 dark:text-gray-300">
-          <li>
-            <Link to="/resume" className="hover:underline">
-              resume
-            </Link>
-          </li>
-          <li>
-            <a href="/#contact" className="hover:underline">
-              contact
-            </a>
-          </li>
+        <div className="flex flex-row gap-6">
+          <ul className="flex flex-row items-center gap-x-6 font-light text-gray-900 dark:text-gray-300">
+            <li>
+              <Link to="/resume" className="hover:underline">
+                resume
+              </Link>
+            </li>
+            <li>
+              <a href="/#contact" className="hover:underline">
+                contact
+              </a>
+            </li>
+          </ul>
           <DarkSwitch></DarkSwitch>
-        </ul>
+        </div>
       </div>
     </>
   );

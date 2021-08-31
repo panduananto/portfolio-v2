@@ -19,18 +19,19 @@ function Contact() {
         >
           panduanantoh@gmail.com
         </a>
-        <IconContext.Provider
-          value={{ className: 'transition-transform h-8 md:h-10 w-8 md:w-10 transform hover:scale-125' }}
-        >
+        <IconContext.Provider value={{ className: 'transition-transform h-8 md:h-10 w-8 md:w-10 transform hover:scale-125' }}>
           <div className="flex flex-row items-start gap-4 text-gray-900 dark:text-gray-300">
             <a href="mailto:panduanantoh@gmail.com">
               <FaEnvelope></FaEnvelope>
+              <span className="sr-only">Email</span>
             </a>
             <a href="https://www.linkedin.com/in/panduanantoh/">
               <FaLinkedin></FaLinkedin>
+              <span className="sr-only">LinkedIn</span>
             </a>
             <a href="https://www.github.com/panduananto">
               <FaGithubSquare></FaGithubSquare>
+              <span className="sr-only">Github</span>
             </a>
           </div>
         </IconContext.Provider>

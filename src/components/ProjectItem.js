@@ -2,7 +2,7 @@ import React from 'react';
 
 function ProjectItem({ picture, name, demo, code, description, tools }) {
   return (
-    <li>
+    <div>
       {picture ? (
         <img className="filter drop-shadow-2xl w-full h-full mb-14" src={picture} alt="thumbnail projects"></img>
       ) : (
@@ -12,14 +12,20 @@ function ProjectItem({ picture, name, demo, code, description, tools }) {
         <h2 className="text-xl md:text-4xl font-bold font-title text-gray-900 dark:text-gray-300">{name}</h2>
         <div className="flex flex-row items-center gap-4">
           {demo ? (
-            <a href={demo} className="btn-primary">
+            <a
+              href={demo}
+              className="transition duration-100 ease-in-out border-2 border-indigo-600 hover:bg-indigo-600 rounded-sm text-indigo-600 hover:text-white px-3 py-1"
+            >
               Demo
             </a>
           ) : (
             <></>
           )}
           {code ? (
-            <a href={code} className="btn-primary">
+            <a
+              href={code}
+              className="transition duration-100 ease-in-out border-2 border-indigo-600 hover:bg-indigo-600 rounded-sm text-indigo-600 hover:text-white px-3 py-1"
+            >
               Code
             </a>
           ) : (
@@ -38,7 +44,7 @@ function ProjectItem({ picture, name, demo, code, description, tools }) {
           </span>
         ))}
       </div>
-    </li>
+    </div>
   );
 }
 

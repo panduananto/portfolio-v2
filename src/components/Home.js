@@ -4,7 +4,7 @@ import Contact from './Contact';
 import Introduction from './Introduction';
 import Project from './Project';
 
-function Landing() {
+function Home() {
   return (
     <>
       <Introduction></Introduction>
@@ -14,4 +14,4 @@ function Landing() {
   );
 }
 
-export default Landing;
+export default Home;

@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import ContainerOuter from './components/ContainerOuter';
 import Header from './components/Header';
-import Landing from './components/Landing';
+import Home from './components/Home';
 import Resume from './components/Resume';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
         <Header></Header>
         <Switch>
           <Route exact path="/">
-            <Landing></Landing>
+            <Home></Home>
           </Route>
           <Route path="/resume">
             <Resume></Resume>
